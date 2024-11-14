@@ -26,3 +26,11 @@ Ensure Python 3 and pip are installed. Then, install the required Python librari
 sudo apt update
 sudo apt install python3 python3-pip
 pip3 install discord mysql-connector-python python-dotenv
+
+touch .env
+DISCORD_BOT_TOKEN=your_discord_bot_token_here
+
+mysql -u root -p
+
+to fire the bot  : python3 bot.py
+
