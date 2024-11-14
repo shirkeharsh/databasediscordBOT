@@ -17,9 +17,9 @@ def get_db_connection():
   
     return mysql.connector.connect(
         host="localhost",  
-        user="pari_parichay", 
-        password="1234567890", 
-        database="pari_parichay" 
+        user="username", 
+        password="passwordhere", 
+        database="databasename" 
     )
 
 def get_data_by_name(name):
